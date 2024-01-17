@@ -1,0 +1,26 @@
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff0000+0,efbd58+47,db36a4+100 */
+$background-gradient: linear-gradient(135deg,  #ff0000 0%,#efbd58 47%,#db36a4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+body {
+  background-image: $background-gradient;
+  margin: 0;
+}
+
+center {
+  margin: auto;
+}
+
+.landing-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+
+  .landing-box {
+    border: 0.5rem solid mediumpurple;
+    background: gray;
+    width: 30%;
+    height: 30%;
+    border-radius: 2em;
+  }
+}
